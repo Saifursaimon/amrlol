@@ -186,7 +186,7 @@ export default function ArmChop() {
     }
 
     const armText = selectedArm === 'both' ? 'BOTH arms' : `${selectedArm} arm`;
-    const cert = `OFFICIAL RETARD CERTIFICATE #${Math.floor(Math.random() * 900000) + 100000}\n\n${new Date().toLocaleDateString()} — Singapore\n\n${username} just chopped his ${armText} off because:\n\n"${reason}"\n\nNew Retard Score: ${score}\n\nRemaining IQ: Probably negative\n\nYou are now officially funnier than 99% of the population.`;
+    const cert = `OFFICIAL RETARD CERTIFICATE #${Math.floor(Math.random() * 900000) + 100000}\n\n${new Date().toLocaleDateString()} — HellHole\n\n${username} just chopped his ${armText} off because:\n\n"${reason}"\n\nNew Retard Score: ${score}\n\nRemaining IQ: Probably negative\n\nYou are now officially funnier than 99% of the population.`;
 
     setCertificate(cert);
 
